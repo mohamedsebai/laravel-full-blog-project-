@@ -30,4 +30,8 @@ Route::get('auth/github', [ SocialiteController::class , 'redirectToGithub'])->n
 Route::get('/login/oauth2/code/github', [ SocialiteController::class , 'handelGithubCallback']);
 // end socail media login
 
+
+
 require __DIR__.'/auth.php';
+
+require __DIR__.'/admin.php';
